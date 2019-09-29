@@ -1,0 +1,109 @@
+
+<!-- ボタン -->
+<!--
+<button mat-raised-button>Basic</button>
+<button mat-raised-button color="primary">Primary</button>
+<button mat-raised-button color="accent">Accent</button>
+<button mat-raised-button color="warn">Warn</button>
+<button mat-raised-button disabled>Disabled</button>
+<a mat-raised-button routerLink=".">Link</a>
+<br>
+<br>
+-->
+<!-- チェックボックス -->
+<!--
+<section class="example-section">
+    <mat-checkbox class="example-margin">Checked</mat-checkbox>
+    <mat-checkbox class="example-margin">Indeterminate</mat-checkbox>
+</section>
+-->
+
+<mat-grid-list cols="1" rowHeight="100px">
+  <mat-grid-tile colspan="1" ><h3>※右のピンク色のボタンをクリックすると、Amazonや復刊ドットコムなどのサイトの書籍ページが別Windowで表示されます。</h3></mat-grid-tile>
+</mat-grid-list>
+
+<mat-grid-list cols="1" rowHeight="20px">
+  <mat-grid-tile colspan="1" >シリーズ名：幻魔大戦第1次シリーズ</mat-grid-tile>
+</mat-grid-list>
+
+<mat-grid-list cols="4" rowHeight="50px"  style="border:solid 2px #000;" *ngFor="let sagaBook of series1">
+    <mat-grid-tile      colspan="3"      rowspan="1"    style="border:solid 1px #989aa2;"   >
+        <h3><span style="color:#3880ff">{{sagaBook.bookName}}</span></h3>
+    </mat-grid-tile>
+    <mat-grid-tile colspan="1" rowspan="2" >
+          <button mat-raised-button color="accent" (click)="openLink(sagaBook.bookLink)" >{{sagaBook.buttonName}}</button>
+    </mat-grid-tile>
+    <mat-grid-tile  colspan="1"  rowspan="1" style="border:solid 1px #989aa2;">
+        <h6><span style="color:#7044ff">{{sagaBook.author}}</span></h6>
+   </mat-grid-tile>
+   <mat-grid-tile colspan="2" rowspan="1" style="border:solid 1px #989aa2;">
+      <h5><span style="color:#0cd1e8">{{sagaBook.description}}</span></h5>
+    </mat-grid-tile>
+</mat-grid-list>
+<br /><br />
+<mat-grid-list cols="1" rowHeight="20px">
+  <mat-grid-tile colspan="1" >シリーズ名：幻魔大戦第2次シリーズ</mat-grid-tile>
+</mat-grid-list>
+
+<mat-grid-list cols="4" rowHeight="50px"  style="border:solid 2px #000;" *ngFor="let sagaBook of series2">
+    <mat-grid-tile      colspan="3"      rowspan="1"    style="border:solid 1px #989aa2;"   >
+        <h3><span style="color:#3880ff">{{sagaBook.bookName}}</span></h3>
+    </mat-grid-tile>
+    <mat-grid-tile colspan="1" rowspan="2" style="border:solid 1px #989aa2;">
+          <button mat-raised-button color="accent" (click)="openLink(sagaBook.bookLink)" >{{sagaBook.buttonName}}</button>
+    </mat-grid-tile>
+    <mat-grid-tile  colspan="1"  rowspan="1" style="border:solid 1px #989aa2;">
+        <h6><span style="color:#7044ff">{{sagaBook.author}}</span></h6>
+   </mat-grid-tile>
+   <mat-grid-tile colspan="2" rowspan="1" style="border:solid 1px #989aa2;">
+      <h5><span style="color:#0cd1e8">{{sagaBook.description}}</span></h5>
+    </mat-grid-tile>
+</mat-grid-list>
+
+<br /><br />
+<mat-grid-list cols="1" rowHeight="20px">
+  <mat-grid-tile colspan="1" >シリーズ名：幻魔大戦第3次シリーズ</mat-grid-tile>
+</mat-grid-list>
+
+<mat-grid-list cols="4" rowHeight="50px"  style="border:solid 2px #000;" *ngFor="let sagaBook of series3">
+    <mat-grid-tile      colspan="3"      rowspan="1"    style="border:solid 1px #989aa2;"   >
+        <h3><span style="color:#3880ff">{{sagaBook.bookName}}</span></h3>
+    </mat-grid-tile>
+    <mat-grid-tile colspan="1" rowspan="2" style="border:solid 1px #989aa2;">
+          <button mat-raised-button color="accent" (click)="openLink(sagaBook.bookLink)" >{{sagaBook.buttonName}}</button>
+    </mat-grid-tile>
+    <mat-grid-tile  colspan="1"  rowspan="1" style="border:solid 1px #989aa2;">
+        <h6><span style="color:#7044ff">{{sagaBook.author}}</span></h6>
+   </mat-grid-tile>
+   <mat-grid-tile colspan="2" rowspan="1" style="border:solid 1px #989aa2;">
+      <h5><span style="color:#0cd1e8">{{sagaBook.description}}</span></h5>
+    </mat-grid-tile>
+</mat-grid-list>
+
+<br /><br />
+<mat-grid-list cols="1" rowHeight="20px">
+  <mat-grid-tile colspan="1" >シリーズ名：幻魔大戦第4次シリーズ</mat-grid-tile>
+</mat-grid-list>
+
+<mat-grid-list cols="4" rowHeight="50px"  style="border:solid 2px #000;" *ngFor="let sagaBook of series4">
+    <mat-grid-tile      colspan="3"      rowspan="1"    style="border:solid 1px #989aa2;"   >
+        <h3><span style="color:#3880ff">{{sagaBook.bookName}}</span></h3>
+    </mat-grid-tile>
+    <mat-grid-tile colspan="1" rowspan="2" style="border:solid 1px #989aa2;">
+          <button mat-raised-button color="accent" (click)="openLink(sagaBook.bookLink)" >{{sagaBook.buttonName}}</button>
+    </mat-grid-tile>
+    <mat-grid-tile  colspan="1"  rowspan="1" style="border:solid 1px #989aa2;">
+        <h6><span style="color:#7044ff">{{sagaBook.author}}</span></h6>
+   </mat-grid-tile>
+   <mat-grid-tile colspan="2" rowspan="1" style="border:solid 1px #989aa2;">
+      <h5><span style="color:#0cd1e8">{{sagaBook.description}}</span></h5>
+    </mat-grid-tile>
+</mat-grid-list>
+
+
+
+
+
+
+
+

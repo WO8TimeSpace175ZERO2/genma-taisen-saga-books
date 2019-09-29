@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "default": "dummy",
+    "prod2": "dummy2"
+  }
+}

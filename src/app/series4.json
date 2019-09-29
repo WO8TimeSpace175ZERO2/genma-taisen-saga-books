@@ -1,0 +1,82 @@
+{
+	"seriesName": "幻魔大戦第4次シリーズ",
+	"books": [
+		{
+			"bookName": "幻魔大戦 Rebirth",
+			"description": "皆が読みたかった幻魔大戦の続き",
+			"author": "原作：平井和正／石森章太郎（石ノ森章太郎）　脚本：七月鏡一　漫画：早瀬マサト・石森プロ",
+			"buttonName": "Amazon",
+			"bookLink": "https://www.amazon.co.jp/s?k=%E5%B9%BB%E9%AD%94%E5%A4%A7%E6%88%A6Rebirth&i=digital-text&s=review-rank&__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&qid=1561202154&ref=sr_st_review-rank"
+		},
+		{
+			"bookName": "幻魔大戦 Rebirth 第1巻",
+			"description": "東丈編",
+			"author": "原作：平井和正／石森章太郎（石ノ森章太郎）　脚本：七月鏡一　漫画：早瀬マサト・石森プロ",
+			"buttonName": "Amazon",
+			"bookLink": "https://www.amazon.co.jp/dp/B071D16CLH/"
+		},
+		{
+			"bookName": "幻魔大戦 Rebirth 第2巻",
+			"description": "ソニー・リンクス編／ニューヨーク黙示録前編",
+			"author": "原作：平井和正／石森章太郎（石ノ森章太郎）　脚本：七月鏡一　漫画：早瀬マサト・石森プロ",
+			"buttonName": "Amazon",
+			"bookLink": "https://www.amazon.co.jp/dp/B071CG6XWL/"
+		},
+		{
+			"bookName": "幻魔大戦 Rebirth 第3巻",
+			"description": "ニューヨーク黙示録後編／時空の管理人編／嵐の中の邂逅編",
+			"author": "原作：平井和正／石森章太郎（石ノ森章太郎）　脚本：七月鏡一　漫画：早瀬マサト・石森プロ",
+			"buttonName": "Amazon",
+			"bookLink": "https://www.amazon.co.jp/dp/B06ZYCP1PX/"
+		},
+		{
+			"bookName": "幻魔大戦 Rebirth 第4巻",
+			"description": "東京戦線編",
+			"author": "原作：平井和正／石森章太郎（石ノ森章太郎）　脚本：七月鏡一　漫画：早瀬マサト・石森プロ",
+			"buttonName": "Amazon",
+			"bookLink": "https://www.amazon.co.jp/dp/B071CFVV42/"
+		},
+		{
+			"bookName": "幻魔大戦 Rebirth 第5巻",
+			"description": "見知らぬ世界編",
+			"author": "原作：平井和正／石森章太郎（石ノ森章太郎）　脚本：七月鏡一　漫画：早瀬マサト・石森プロ",
+			"buttonName": "Amazon",
+			"bookLink": "https://www.amazon.co.jp/dp/B06ZZJ5SYR/"
+		},
+		{
+			"bookName": "幻魔大戦 Rebirth 第6巻",
+			"description": "東丈の消失編／幻魔領域前編",
+			"author": "原作：平井和正／石森章太郎（石ノ森章太郎）　脚本：七月鏡一　漫画：早瀬マサト・石森プロ",
+			"buttonName": "Amazon",
+			"bookLink": "https://www.amazon.co.jp/dp/B076GX3HH6/"
+		},
+		{
+			"bookName": "幻魔大戦 Rebirth 第7巻",
+			"description": "幻魔領域後編／東丈の帰還前編",
+			"author": "原作：平井和正／石森章太郎（石ノ森章太郎）　脚本：七月鏡一　漫画：早瀬マサト・石森プロ",
+			"buttonName": "Amazon",
+			"bookLink": "https://www.amazon.co.jp/dp/B07B484PZH/"
+		},
+		{
+			"bookName": "幻魔大戦 Rebirth 第8巻",
+			"description": "東丈の帰還後編／幻魔経済入門編／悪霊の王女編",
+			"author": "原作：平井和正／石森章太郎（石ノ森章太郎）　脚本：七月鏡一　漫画：早瀬マサト・石森プロ",
+			"buttonName": "Amazon",
+			"bookLink": "https://www.amazon.co.jp/dp/B07H3PBXXX/"
+		},
+		{
+			"bookName": "幻魔大戦 Rebirth 第9巻",
+			"description": "虎の檻編",
+			"author": "原作：平井和正／石森章太郎（石ノ森章太郎）　脚本：七月鏡一　漫画：早瀬マサト・石森プロ",
+			"buttonName": "Amazon",
+			"bookLink": "https://www.amazon.co.jp/dp/B07P7VFBFF/"
+		},
+		{
+			"bookName": "幻魔大戦 Rebirth 第10巻",
+			"description": "集結の時編／黒き竜編",
+			"author": "原作：平井和正／石森章太郎（石ノ森章太郎）　脚本：七月鏡一　漫画：早瀬マサト・石森プロ",
+			"buttonName": "Amazon",
+			"bookLink": "https://www.amazon.co.jp/dp/B07X2Q87T1/"
+		}
+	]
+}
